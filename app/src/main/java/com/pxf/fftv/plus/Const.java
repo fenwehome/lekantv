@@ -8,7 +8,7 @@ import android.os.Environment;
 public class Const {
 
     public static final String LOG_TAG = "FFTV_LOG";
-    public static final String BASE_URL = "http://yunshi.meetpt.cn";
+    public static final String BASE_URL = "https://pg.fenwe078.cf";
 
     public static final String VIP_PAY_URL = BASE_URL + "/api.php?action=juhepay";
     public static final String VIP_ORDER_QUERY = BASE_URL + "/api.php?action=orderQuery";

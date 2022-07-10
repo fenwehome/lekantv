@@ -117,7 +117,7 @@ public class IjkTVLiveActivity extends Activity implements TitleAdapter.OnClickL
                     @Override
                     public void subscribe(ObservableEmitter<TvLiveBean> emitter) throws Exception {
                         Request request = new Request.Builder()
-                                .url("http://yunshi.meetpt.cn/tv.json")
+                                .url("https://gitea.com/fenwe/TVBox/raw/branch/main/tv/tv88.txt")
                                 .build();
 
                         Response response = CommonUtils.getOkHttpClient().newCall(request).execute();

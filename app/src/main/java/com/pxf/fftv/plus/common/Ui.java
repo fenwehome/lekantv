@@ -71,7 +71,7 @@ public class Ui {
         }
 
         TextView top_bar_menu_right_title = activity.findViewById(R.id.top_bar_menu_right_title);
-        top_bar_menu_right_title.setText("乐看视频");
+        top_bar_menu_right_title.setText("四个圈");
 
         if (!rightNote.isEmpty()) {
             top_bar_menu_right_title.setVisibility(View.GONE);

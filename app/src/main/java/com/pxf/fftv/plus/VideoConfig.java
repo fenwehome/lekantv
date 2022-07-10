@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class VideoConfig {
 
-    private static final String BASE_CMS_URL = "http://cms.yunshi.meetpt.cn/api.php/provide/vod/?ac=videolist";
+    private static final String BASE_CMS_URL = "https://pg.fenwe078.cf/api.php/provide/vod/?ac=list";
     private static final String BASE_OK_URL = "http://www.apiokzy.com/inc/feifei3";
     private static final String BASE_ZD_URL = "http://www.zdziyuan.com/inc/feifei3.4";
 
@@ -520,6 +520,8 @@ public class VideoConfig {
                     },
                     new VideoScreenSub[]{
                             new VideoScreenSub("全部", ""),
+                            new VideoScreenSub("2022", "&year=2022"),
+                            new VideoScreenSub("2021", "&year=2021"),
                             new VideoScreenSub("2020", "&year=2020"),
                             new VideoScreenSub("2019", "&year=2019"),
                             new VideoScreenSub("2018", "&year=2018"),
@@ -609,6 +611,8 @@ public class VideoConfig {
                     },
                     new VideoScreenSub[]{
                             new VideoScreenSub("全部", ""),
+                            new VideoScreenSub("2022", "&year=2022"),
+                            new VideoScreenSub("2021", "&year=2021"),
                             new VideoScreenSub("2020", "&year=2020"),
                             new VideoScreenSub("2019", "&year=2019"),
                             new VideoScreenSub("2018", "&year=2018"),
@@ -804,6 +808,8 @@ public class VideoConfig {
                     },
                     new VideoScreenSub[]{
                             new VideoScreenSub("全部", ""),
+                            new VideoScreenSub("2022", "&year=2022"),
+                            new VideoScreenSub("2021", "&year=2021"),
                             new VideoScreenSub("2020", "&year=2020"),
                             new VideoScreenSub("2019", "&year=2019"),
                             new VideoScreenSub("2018", "&year=2018"),
